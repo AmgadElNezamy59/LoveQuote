@@ -13,6 +13,10 @@ class MainController: UIViewController {
     @IBAction func myQuotePressed(_ sender: UIButton) {
         
         self.performSegue(withIdentifier: "goToQuote", sender: self)
+        print("HeloWorld")
+        print("bye bye world")
+
+        
     }
     
 }
