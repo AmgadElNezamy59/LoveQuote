@@ -11,7 +11,6 @@ class LaunchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         perform(#selector(self.ShowNavControoler), with: nil, afterDelay: 40)    }
     
     @objc func ShowNavControoler(){
